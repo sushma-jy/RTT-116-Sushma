@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+}
+
+header {
+    background: linear-gradient(45deg, #333, #555);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+img {
+    width: 500px; 
+    height: auto; 
+  }
+  .repeated-image {
+    background-image: url('images/salon.jpg'); 
+    background-repeat: repeat-x; 
+    background-size: auto; 
+    height:auto; 
+    width: 100%; 
+  }
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.box {
+    background-color: #000;
+    color: #fff;
+    opacity: 0.5;
+  }
+  
+ 
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: url('../image/salon.jpg') ;
+    height: 730px;
+    color: rgb(16, 16, 16);
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 1em;
+    background: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    margin: 2rem 0;
+}
+input[type="checkbox"], input[type="date"], input[type="text"],input[type="email"], select, button {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+table th, table td {
+    padding: 0.8rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+#rewards-form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#rewards-form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}

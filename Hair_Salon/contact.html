@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Salon Bliss</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Get in Touch</h2>
+            <p>We’d love to hear from you! Book your appointment now or ask any questions.</p>
+            <form id="appointment-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="service">Choose a Service:</label>
+                <select id="service">
+                    <option>Haircut</option>
+                    <option>Hair Coloring</option>
+                    <option>Hair Spa</option>
+                    <option>2-in-1 package</option>
+                    <option>3-in-1 package</option>
+                </select>
+                
+
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" required>
+                <br><br>
+                <label>Additional Services</label>
+            <input type="checkbox" id="color" name="additional_services" value="Hair Coloring">
+            <label for="color">Shampoo and conditioning</label>
+
+            <input type="checkbox" id="nails" name="additional_services" value="Manicure">
+            <label for="nails">Hair setting</label>
+
+            <input type="checkbox" id="nails" name="additional_services" value="Manicure">
+            <label for="nails">Hair/Scalp treatments</label>
+
+            <br><br>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Thankyou, see you soon!</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
