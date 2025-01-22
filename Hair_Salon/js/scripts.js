@@ -13,4 +13,3 @@ document.getElementById('appointment-form').addEventListener('submit', function 
     // }
    
 });
-
