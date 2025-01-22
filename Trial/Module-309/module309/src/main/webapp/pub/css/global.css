@@ -1,0 +1,23 @@
+
+.bg-header {
+    background-color: #F8F9FA;
+}
+
+.bg-light1 {
+    background-color: #EDF5F7;
+}
+
+.bg-light2 {
+    background-color: #E7EDEF;
+}
+
+.bg-footer {
+    background-color: #737678;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Use your preferred font-family */
+    background: url('/pub/haircare1.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    color: #444; /* Default text color */
+}
